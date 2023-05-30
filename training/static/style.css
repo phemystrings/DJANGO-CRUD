@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: rgb(138, 171, 219);
+  color: rgba(7, 7, 7, 0.89);
+}
+svg {
+  height: 20px;
+  fill: rgba(53, 53, 83, 0.699);
+}
+.icons {
+  display: flex;
+  gap: 0.35rem;
+}
+.icons a:last-child svg {
+  fill: rgba(255, 0, 0, 0.521);
+}
+.home {
+  display: grid;
+  padding: 2.5rem;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+article p {
+  margin-block: 0.5rem;
+}
+.details_btn a {
+  text-decoration: none;
+  font-size: medium;
+  display: inline-flex;
+  gap: 0.2rem;
+  color: rgb(0, 51, 128);
+}
+
+.details_btn button {
+  border: none;
+  background-color: rgb(194, 214, 236);
+  margin-block: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px gray;
+}
+.details_btn button:first-child svg {
+  fill: rgb(0, 51, 128);
+}
+.details_btn button:last-child svg {
+  fill: rgb(199, 11, 58);
+}
+form {
+  display: grid;
+  width: 300px;
+  box-shadow: 2px 2px 3px 1px rgb(145, 144, 144);
+  padding: 0.5rem 0.6rem;
+  gap: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+form :is(input, button) {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+form h1,
+.home h1 {
+  text-align: center;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: rgba(119, 118, 118, 0.822);
+}
+form p {
+  margin-bottom: 0.2rem;
+}
+
+table {
+  margin: 0.8rem 0;
+  border-collapse: collapse;
+  background-color: rgb(144, 144, 201);
+}
+thead tr {
+  background-color: rgb(87, 87, 167);
+  font-size: 0.8rem;
+}
+thead th {
+  padding: 0.5rem;
+}
+tbody td {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.no-data td {
+  text-align: center;
+  width: 500px;
+  padding-block: 0.5rem;
+}
+tbody tr:nth-child(2n + 1) {
+  background-color: rgb(222, 222, 238);
+}
+tbody a {
+  text-decoration: none;
+}
