@@ -3,7 +3,7 @@
 
 ### requirements ###
 ## --You must have python installed on your pc or mac
-## --Have Powershell terminal install on ypur pc or mac
+## --Have Powershell terminal install on your pc or mac
 ## --Have a code editor installed on your pc or mac (vscode, sublime, scrimba etc..)
 ## --In  your command prompt use this code to create a folder: mkdir Bootcamp
 ## --follwed with the code: cd Bootcamp
